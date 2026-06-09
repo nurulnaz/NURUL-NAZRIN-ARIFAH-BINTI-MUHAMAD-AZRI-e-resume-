@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background-color: maroon;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      border: 2px solid black;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+      justify-items: center; /* align tengah */
+    }
+
+    .media-grid img,
+    .media-grid video {
+      width: 100%;
+      max-width: 350px;   /* kawal saiz maksimum */
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <marquee behavior="alternate" scrollamount="8">
+    <h1 style="font-family: Elephant, serif;">MY EXPERIENCE</h1>
+  </marquee>
+  <nav style="text-align:left; margin-top:10px;">
+    <a href="index.html" 
+       style="background-color:lightblue; 
+              color:navy; 
+              padding:8px 16px; 
+              text-decoration:none; 
+              border-radius:6px; 
+              font-weight:bold;">
+      Home
+    </a>
+  </nav>
+</header>
+
+<section>
+
+  <div class="card">
+    <h2>Projects</h2>
+    <p>Served as a committee member for a university club program, supporting program coordination, event management, and teamwork throughout the event.</p>
+    
+    <div class="media-grid">
+      <img src="AJKredcress.jpeg" alt="Project photo">
+      <img src="AJKprogram.jpeg" alt="Project photo">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Activities</h2>
+    <p>Participated in leadership development programs and club organizational management courses (KPO), developing strong leadership, communication, teamwork, and organizational management skills through active involvement and collaborative activities.</p>
+    
+    <div class="media-grid">
+      <img src="leadershipprogram.jpeg" alt="Activity photo">
+      <video controls>
+        <source src="rsyprogram.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+</section>
+
+<footer style="background-color:lightgray; text-align:center; padding:10px; font-size:12px; font-family: Arial, sans-serif;">
+  <p>&copy; 2026 Nurul Nazrin | Last updated: June 9, 2026</p>
+</footer>
+
+</body>
+</html>

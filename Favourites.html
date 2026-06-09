@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Favourites</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<header style="background-color:maroon; text-align:center; padding:20px; color:white;">
+  <marquee behavior="alternate" scrollamount="8">
+    <h1 style="font-family: Elephant, serif;">MY FAVOURITES</h1>
+  </marquee>
+  <nav style="text-align:left; margin-top:10px;">
+    <a href="index.html" 
+       style="background-color:lightblue; 
+              color:navy; 
+              padding:8px 16px; 
+              text-decoration:none; 
+              border-radius:6px; 
+              font-weight:bold;">
+      Home
+    </a>
+  </nav>
+</header>
+
+<section id="frames" style="max-width:1000px; margin:auto; padding:20px;">
+  <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+    
+    <div style="flex:1 1 300px; border:2px solid black; border-radius:8px; padding:20px; background-color:#f9f9f9;">
+      <h2>Favourite Music Genre</h2>
+      <p>I love listening to Pop and R&B.</p>
+      <audio controls style="width:100%; margin-top:10px;">
+        <source src="favsong.mp3" type="audio/mp3">
+      </audio>
+      <img src="favsong.jpg" alt="Favourite Music" 
+           style="width:100%; height:auto; border-radius:8px; margin-top:10px;">
+    </div>
+
+    <div style="flex:1 1 300px; border:2px solid black; border-radius:8px; padding:20px; background-color:#f9f9f9;">
+      <h2>Favourite Colour</h2>
+      <p>My favourite colour is Deep Red.</p>
+      <img src="favcolor.jpeg" alt="Deep Red Colour" 
+           style="width:100%; height:auto; border-radius:8px; margin-top:10px;">
+    </div>
+
+    <div style="flex:1 1 300px; border:2px solid black; border-radius:8px; padding:20px; background-color:#f9f9f9;">
+      <h2>Favourite Food</h2>
+      <p>I enjoy Spicy Food.</p>
+      <img src="favfood.jpeg" alt="Spicy Food" 
+           style="width:100%; height:auto; border-radius:8px; margin-top:10px;">
+    </div>
+
+    <div style="flex:1 1 300px; border:2px solid black; border-radius:8px; padding:20px; background-color:#f9f9f9;">
+      <h2>Favourite Place</h2>
+      <p>My favourite place is the River.</p>
+      <img src="favplace.jpeg" alt="River" 
+           style="width:100%; height:auto; border-radius:8px; margin-top:10px;">
+    </div>
+
+  </div>
+</section>
+
+<footer style="background-color:lightgray; text-align:center; padding:10px; font-size:12px; font-family: Arial, sans-serif;">
+  <p>&copy; 2026 Nurul Nazrin | Last updated: June 9, 2026</p>
+</footer>
+
+</body>
+</html>
